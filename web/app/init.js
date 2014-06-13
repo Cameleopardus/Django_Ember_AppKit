@@ -18,7 +18,5 @@ requirejs.config({
     }
 });
 
-var app = 'ios';
-app = 'main';
-
+var app = 'main';
 require([app]);
